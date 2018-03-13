@@ -2,7 +2,6 @@
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdline, int iCmdShow)
 {
-	//MessageBox(NULL, TEXT("HELLODCR"), TEXT("DCR"), 0);
 	static TCHAR szAppName[] = TEXT("hellodcr");
 	HWND hwnd;
 	MSG msg;
